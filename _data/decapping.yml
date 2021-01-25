@@ -1,0 +1,17 @@
+- title: CRISPR-based functional genomics technology development in the brain
+  
+  body: |
+    We developed [website](http://www.crisprbrain.org/) to discover the data commons for functional genomics screens in differentiated human cell types. Such screens can query a large set of genes (such as all ~20,000 protein-coding human genes) for their contribution to a cellular function of interest. These provide an overview of different modes of screening and highlights examples of recent CRISPR screens with relevance to neurological disease.
+   
+  image: /static/img/cblink.png
+
+
+- title: Cellular and molecular mechanisms of human neurological diseases
+  
+  body: |
+    Tian et al. presented a CRISPR interference-based platform for genetic screens in human iPSC-derived neurons in the previous [research](https://doi.org/10.1016/j.neuron.2019.07.014). This platform enables systematic elucidation of gene function in human neurons and reveals neuron-specific roles of genes for survival, transcriptomics states, and morphology.
+   
+  image: /static/img/iPSC-derived_neurons.png
+
+  
+

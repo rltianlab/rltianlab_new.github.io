@@ -1,0 +1,31 @@
+{% include header.html %}
+{% include parallax_banner.html %}
+<div class="container">
+  <div class="flow-text"><h5 style="text-align:left;">{{content}}</h5></div>
+
+<div class="divider"></div>
+
+<div class="section">
+  <h4>Projects and Support</h4>  
+  <div class="row">
+  {% for topic in site.data.research_topics %}
+    <div class="col s12 m10 offset-m1 l8 offset-l2">
+
+      <div class="card hoverable">
+        <div class="card-image">
+          <a href={{topic.url}}><img src="{{site.baseurl}}{{topic.image}}"/></a>
+        </div>
+        <div class="card-action">
+          <a href={{topic.url}}><strong> {{topic.name}}</strong></a>
+        </div>
+
+      </div>
+    
+    </div>
+
+
+  {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %}
